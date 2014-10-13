@@ -4,6 +4,9 @@
   "description": "Good reporter for bunyan",
   "author": "Thomas Coopman @tcoopman",
   "license": "MIT",
+  "scripts": {
+    "test": "node node_modules/lab/bin/lab"
+  },
   "dependencies": {
     "bunyan": "^1.1.3",
     "good-reporter": "^2.0.0",
@@ -11,5 +14,9 @@
   },
   "devDependencies": {
     "lab": "^4.6.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tcoopman/good-bunyan.git"
   }
 }

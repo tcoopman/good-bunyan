@@ -22,8 +22,7 @@ var GoodBunyan = function(bunyanLogger, options) {
 Hoek.inherits(GoodBunyan, GoodReporter);
 
 GoodBunyan.prototype._report = function(event, eventData) {
-  console.log(event);
-  console.log(eventData);
+  // FIXME (see constructor)
   // var log = this._settings.bunyanLogger;
   if (eventData.tag === 'error') {
     log.error(eventData);
