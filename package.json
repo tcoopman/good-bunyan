@@ -1,6 +1,6 @@
 {
   "name": "good-bunyan",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Good reporter for bunyan",
   "author": "Thomas Coopman @tcoopman",
   "license": "MIT",
