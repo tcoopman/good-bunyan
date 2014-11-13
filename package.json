@@ -8,12 +8,13 @@
     "test": "node node_modules/lab/bin/lab"
   },
   "dependencies": {
-    "bunyan": "^1.1.3",
-    "good-reporter": "^2.0.0",
-    "hoek": "^2.5.1"
+    "bunyan": "^1.2.1",
+    "good-reporter": "^3.0.1",
+    "hoek": "^2.9.0"
   },
   "devDependencies": {
-    "lab": "^4.6.2"
+    "code": "^1.2.1",
+    "lab": "^5.0.2"
   },
   "repository": {
     "type": "git",

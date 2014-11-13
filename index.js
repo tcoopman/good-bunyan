@@ -5,7 +5,7 @@ var defaults = {};
 
 var log;
 
-var GoodBunyan = function(bunyanLogger, options) {
+var GoodBunyan = function(bunyanLogger, events, options) {
   Hoek.assert(this.constructor === GoodBunyan, 'GoodBunyan must be created with new');
   Hoek.assert(typeof bunyanLogger === 'object', 'GoodBunyan must be called with a bunyan object');
 
@@ -15,7 +15,7 @@ var GoodBunyan = function(bunyanLogger, options) {
   // settings.bunyanLogger = console;
   log = bunyanLogger;
 
-  GoodReporter.call(this, settings);
+  GoodReporter.call(this, events, settings);
 };
 
 
